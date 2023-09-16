@@ -1,0 +1,10 @@
+.black {
+  background-color: black;
+  color: white;
+  padding: 4rem;
+}
+.social-media a {
+  margin: 1rem;
+  cursor: pointer;
+  color: white;
+}

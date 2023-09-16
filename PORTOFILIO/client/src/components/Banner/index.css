@@ -1,0 +1,114 @@
+.contact-btn {
+  text-decoration: none;
+}
+.box {
+  position: relative;
+  overflow: hidden;
+}
+
+.box .rectangle {
+  /* height: ; */
+  position: absolute;
+  width: 80vh;
+  right: 1rem;
+  bottom: 0;
+  z-index: 0;
+}
+@media (max-width: 992px) {
+  .box .rectangle {
+    width: 300px;
+    right: 0;
+    /* height: 300; */
+  }
+}
+/************ Banner Css ************/
+.banner {
+  margin-top: 0;
+  padding: 8rem 0 0 0;
+  /* background-image: url("./assets/carou1.png"); */
+  background-color: rgb(13, 110, 253);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.banner .tagline {
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  padding: 8px 10px;
+  color: #fff;
+
+  font-size: 20px;
+  margin-bottom: 16px;
+  display: inline-block;
+}
+.banner h1 {
+  font-size: 65px;
+  font-weight: 700;
+  color: white;
+  letter-spacing: 0.8px;
+  line-height: 1;
+  margin-bottom: 20px;
+  display: block;
+}
+.banner p {
+  color: #b8b8b8;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  width: 96%;
+}
+.banner button {
+  color: rgb(13, 110, 253);
+  padding: 0.45rem;
+  font-weight: 700;
+  border-radius: 12px;
+  border: none;
+  font-size: 20px;
+  margin-top: 60px;
+  letter-spacing: 0.8px;
+  display: flex;
+  align-items: center;
+}
+.banner .secondary {
+  color: white;
+  background-color: transparent;
+  border-radius: 12px;
+  border: 1px solid;
+}
+.banner button svg {
+  font-size: 25px;
+  margin-left: 10px;
+  transition: 0.3s ease-in-out;
+  line-height: 1;
+}
+.banner button:hover svg {
+  margin-left: 25px;
+}
+.header-img {
+  position: relative;
+  z-index: 1;
+  animation: updown 3s linear infinite;
+}
+@keyframes updown {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(20px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+.txt-rotate > .wrap {
+  border-right: 0.08em solid #666;
+}
+.button-group {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.button-group button {
+  margin: 0;
+}

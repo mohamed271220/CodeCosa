@@ -1,0 +1,64 @@
+
+.services-container {
+ 
+  gap: 1rem;
+}
+.service-card {
+  position: relative;
+  background-color: white;
+  padding-bottom: 31px;
+  padding: 1rem 1rem 1.1rem ;
+  text-align: start;
+}
+.service-card h3 {
+  width: 40%;
+}
+.service-card p {
+  padding: 26px 0 12px 0;
+}
+.service-card h5 {
+  cursor: pointer;
+  color: #0067f4;
+}
+
+.service-logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.node {
+  position: absolute;
+
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0.139),
+    rgba(131, 205, 41, 0.18)
+  );
+  right: 0;
+  top: 0;
+}
+
+.react {
+  position: absolute;
+
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0.139),
+    rgba(0, 217, 255, 0.18)
+  );
+  right: 0;
+  top: 0;
+}
+.figma {
+  position: absolute;
+
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0.139),
+    rgba(255, 114, 98, 0.18)
+  );
+  right: 0;
+  top: 0;
+}

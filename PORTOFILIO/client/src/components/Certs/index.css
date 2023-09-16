@@ -1,0 +1,17 @@
+.custom-section-heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  text-align: start;
+}
+.custom-section-heading h5 {
+  color: #0067f4;
+}
+
+
+@media (max-width:780px) {
+    .cets-icon{
+display: none;
+    }
+}
