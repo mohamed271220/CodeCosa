@@ -26,11 +26,11 @@ const Header = () => {
             </AnimatePresence>
 
             <header
-                className="flex justify-between items-center w-[80%]   mx-auto my-auto text-white"
+                className="flex justify-between items-center w-[80%]   mx-auto my-auto text-[#0f61ef]"
             >
                 <h1 className="text-[2rem] font-bold">To Do List</h1>
                 <motion.button
-                    whileHover={{ scale: 1.1, backgroundColor: "#8b11f0" }}
+                    whileHover={{ scale: 1.1, backgroundColor: "#0f61ef" }}
                     whileTap={{ scale: 0.9 }}
                     transition={{ type: "spring", stiffness: 500 }}
 
