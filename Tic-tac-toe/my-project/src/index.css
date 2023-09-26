@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.Circle {
+  @apply w-[90px] h-[90px] rounded-[50%] border-[15px] border-emerald-500 box-border;
+}
+.Cross {
+  @apply w-[90px] h-[90px] relative transform rotate-45;
+}
+.Cross::before,
+.Cross::after {
+  content: "";
+  position: absolute;
+  background-color: red;
+}
+
+.Cross::before {
+  @apply w-[30%] h-[100%] ml-[-15%] left-[50%] ;
+}
+.Cross::after {
+  @apply h-[30%] w-[100%] mt-[-15%]  top-[50%] ;
+}
